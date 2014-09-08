@@ -13,9 +13,9 @@ irssi, perl, script, to download next anime ep from XDCC bot.
 8. set irssi config set auto join channel: autojoin = "yes";
 9. set irssi config set dcc_autoget in your irssi config file under settings: "irc/dcc" = { dcc_autoget = "yes"; dcc_autoget_masks = "XDCCBOTNAME"; };
 10. run irssi as deamon.
-#run#
-1. bot anounces a new download
-2. script checks it against the SeriesDB
-3. add to GetQueue
-4. if not already downloading, than start download
-5. update GetQueue and SeriesDB
+
+1. #run# bot anounces a new download
+2. #run# script checks it against the SeriesDB
+3. #run# add to GetQueue
+4. #run# if not already downloading, than start download
+5. #run# update GetQueue and SeriesDB
